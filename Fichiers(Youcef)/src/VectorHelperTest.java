@@ -1,7 +1,11 @@
 import static org.junit.Assert.*;
 
 import org.junit.Test;
-
+/**
+ * Une classe pour tester nos methodes
+ * @author youcef bensid
+ *
+ */
 
 public class VectorHelperTest {
 
