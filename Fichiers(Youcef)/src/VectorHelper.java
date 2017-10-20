@@ -5,7 +5,7 @@
  */
 
 public class VectorHelper 
-{
+{   
 	/**
 	 * 
 	 * @param tab1 un tableau d'entiers
@@ -16,10 +16,11 @@ public class VectorHelper
 	 */
     public static int [] SommeVec (int tab1[],int tab2[]) throws TailleException
     {
-    	int i;
-    	int resultat [] = new int [tab1.length];
+    	int i; 
+    	int resultat [] = null;
     	if (tab1.length == tab2.length)
     	{
+    	   resultat = new int [tab1.length];
     	   for (i=0;i<tab1.length;i++)
     	      {
     		    resultat[i] = tab1[i] + tab2[i];
